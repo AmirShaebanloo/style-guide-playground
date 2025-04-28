@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Design system specific colors
+				'mocha': '#A47864',
+				'verdant': '#4CAF50',
+				'cherry': '#BF1922',
+				'midnight': '#1A1A1A',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
