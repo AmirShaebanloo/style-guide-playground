@@ -104,7 +104,8 @@ const CtaSection = () => {
         <div className="mt-16 h-1 w-32 bg-white/30 mx-auto rounded-full"></div>
       </motion.div>
       
-      <style jsx>{`
+      <style>
+        {`
         @keyframes float {
           0% {
             transform: translateY(0) translateX(0);
@@ -141,7 +142,8 @@ const CtaSection = () => {
         .animate-bounce-slow {
           animation: bounce-slow 6s ease-in-out infinite;
         }
-      `}</style>
+        `}
+      </style>
     </section>
   );
 };
