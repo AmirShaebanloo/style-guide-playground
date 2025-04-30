@@ -51,6 +51,12 @@ const Index = () => {
           </Button>
         </div>
         
+        <div className="mt-12 mb-8">
+          <Button asChild variant="secondary" size="lg">
+            <Link to="/landing">View Landing Page</Link>
+          </Button>
+        </div>
+        
         <p className="text-sm text-muted-foreground mt-16">
           Version 1.0.0 • Last updated: April 28, 2025
         </p>

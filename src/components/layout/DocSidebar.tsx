@@ -8,6 +8,13 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 // Define the sidebar navigation items
 const sidebarItems = [
   {
+    title: "Pages",
+    items: [
+      { name: "Home", href: "/" },
+      { name: "Landing", href: "/landing" },
+    ]
+  },
+  {
     title: "Design System",
     items: [
       { name: "Typography", href: "/typography" },

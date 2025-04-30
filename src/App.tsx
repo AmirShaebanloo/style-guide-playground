@@ -12,6 +12,7 @@ import SpacingPage from "./pages/SpacingPage";
 import ShadowsRadiusPage from "./pages/ShadowsRadiusPage";
 import ButtonsPage from "./pages/ButtonsPage";
 import InputsPage from "./pages/InputsPage";
+import LandingPage from "./pages/LandingPage";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/landing" element={<LandingPage />} />
           <Route path="/colors" element={<ColorPage />} />
           <Route path="/typography" element={<TypographyPage />} />
           <Route path="/spacing" element={<SpacingPage />} />
