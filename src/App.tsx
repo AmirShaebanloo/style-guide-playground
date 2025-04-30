@@ -7,6 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ColorPage from "./pages/ColorPage";
+import TypographyPage from "./pages/TypographyPage";
+import SpacingPage from "./pages/SpacingPage";
+import ShadowsRadiusPage from "./pages/ShadowsRadiusPage";
+import ButtonsPage from "./pages/ButtonsPage";
+import InputsPage from "./pages/InputsPage";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +24,11 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/colors" element={<ColorPage />} />
+          <Route path="/typography" element={<TypographyPage />} />
+          <Route path="/spacing" element={<SpacingPage />} />
+          <Route path="/shadows" element={<ShadowsRadiusPage />} />
+          <Route path="/buttons" element={<ButtonsPage />} />
+          <Route path="/inputs" element={<InputsPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
