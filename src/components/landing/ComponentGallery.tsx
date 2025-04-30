@@ -42,9 +42,9 @@ const ComponentCard = ({ title, description, preview, link }: ComponentCardProps
 };
 
 const ComponentGallery = () => {
-  const [activeVariant, setActiveVariant] = useState("default");
+  const [activeVariant, setActiveVariant] = useState<"default" | "secondary" | "destructive" | "outline" | "ghost" | "link">("default");
 
-  const handleSetVariant = (variant: string) => {
+  const handleSetVariant = (variant: "default" | "secondary" | "destructive" | "outline" | "ghost" | "link") => {
     setActiveVariant(variant);
   };
 
