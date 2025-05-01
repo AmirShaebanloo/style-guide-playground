@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -93,7 +92,6 @@ const NavigationBar = () => {
           >
             <Link to="/typography">
               Start Using
-              <ChevronDown className="h-4 w-4 ml-1 group-hover:rotate-180 transition-transform duration-300" />
             </Link>
           </Button>
         </div>
@@ -152,7 +150,6 @@ const NavigationBar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Start Using
-              <ChevronDown className="h-4 w-4 ml-1 group-hover:rotate-180 transition-transform" />
             </Link>
           </Button>
         </div>
