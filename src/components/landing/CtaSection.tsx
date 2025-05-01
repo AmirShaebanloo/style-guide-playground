@@ -84,7 +84,7 @@ const CtaSection = () => {
             size="lg"
             className="group hover:scale-105 transition-all bg-white text-mocha hover:bg-white/90 text-lg px-8 py-6 h-auto shadow-xl"
           >
-            <Link to="/">
+            <Link to="/typography">
               Get Started
               <ChevronDown className="h-5 w-5 ml-2 group-hover:rotate-180 transition-transform" />
             </Link>

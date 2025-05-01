@@ -62,7 +62,7 @@ const NavigationBar = () => {
 
         <div className="hidden md:flex items-center space-x-8">
           <Link
-            to="/"
+            to="/typography"
             className="text-sm text-gray-700 hover:text-mocha dark:text-gray-300 dark:hover:text-white relative group overflow-hidden"
           >
             <span>Docs</span>
@@ -91,7 +91,7 @@ const NavigationBar = () => {
             asChild
             className="group transition-all hover:scale-105 hover:shadow-md bg-gradient-to-r from-mocha to-cherry text-white"
           >
-            <Link to="/">
+            <Link to="/typography">
               Start Using
               <ChevronDown className="h-4 w-4 ml-1 group-hover:rotate-180 transition-transform duration-300" />
             </Link>
@@ -121,7 +121,7 @@ const NavigationBar = () => {
       >
         <div className="px-4 pt-2 pb-6 space-y-4">
           <Link
-            to="/"
+            to="/typography"
             className="block py-2 text-base font-medium text-gray-700 hover:text-mocha dark:text-gray-300 dark:hover:text-white"
             onClick={() => setMobileMenuOpen(false)}
           >
@@ -148,7 +148,7 @@ const NavigationBar = () => {
             className="w-full mt-4 group"
           >
             <Link 
-              to="/"
+              to="/typography"
               onClick={() => setMobileMenuOpen(false)}
             >
               Start Using
