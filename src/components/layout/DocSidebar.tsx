@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -11,7 +10,6 @@ const sidebarItems = [
     title: "Pages",
     items: [
       { name: "Home", href: "/" },
-      { name: "Landing", href: "/landing" },
     ]
   },
   {
